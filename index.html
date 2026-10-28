@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>N.i.เฟอร์นิเจอร์</title>
+<meta name="description" content="N.i.เฟอร์นิเจอร์ ชุดโซฟาและชุดเตียงนอนหรู ดีไซน์คลาสสิก ผลิตจากโรงงานกาฬสินธุ์ สอบถามทาง LINE @ni1212 โทร 099-483-4469">
+<meta property="og:title" content="N.i.เฟอร์นิเจอร์">
+<meta property="og:description" content="ชุดโซฟาและชุดเตียงนอนหรู ดีไซน์คลาสสิก ผลิตจากโรงงานกาฬสินธุ์">
+<meta name="theme-color" content="#f5eee1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans+Thai:wght@300;400;500&family=Noto+Serif+Thai:wght@400;500&display=swap">
+<style>
+/* Layout: ivory editorial page. Light marble hero with a clean sofa panorama offset inside a gold hairline frame; collection shown two-up as framed gallery prints; contact on marble. */
+:root {
+  --bg: #f5eee1;
+  --surface: #fffaf0;
+  --fg: #2b1d13;
+  --muted: #7a6a58;
+  --line: #dccfb6;
+  --gold: #94682a;
+  --gold-soft: #c9a257;
+  --btn-top: #4d3320;
+  --btn-bot: #2a1a0e;
+  --btn-edge: #c9a257;
+  --btn-inner: rgba(201,162,87,.5);
+  --btn-shadow: rgba(58,38,22,.7);
+  --btn-fg: #f6e4b4;
+  --font-display: "Noto Serif Thai", "Cormorant Garamond", Georgia, serif;
+  --font-latin: "Cormorant Garamond", Georgia, serif;
+  --font-body: "IBM Plex Sans Thai", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b130e; --surface: #261b14; --fg: #f3e9d6; --muted: #b3a28b; --line: #46372b;
+    --gold: #dab56a; --gold-soft: #b8935a; --btn-top: #f1d58f; --btn-bot: #c9a257; --btn-edge: #f6e2a8; --btn-inner: rgba(42,26,12,.35); --btn-shadow: rgba(218,181,106,.45); --btn-fg: #2a1a0c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1b130e; --surface: #261b14; --fg: #f3e9d6; --muted: #b3a28b; --line: #46372b;
+  --gold: #dab56a; --gold-soft: #b8935a; --btn-top: #f1d58f; --btn-bot: #c9a257; --btn-edge: #f6e2a8; --btn-inner: rgba(42,26,12,.35); --btn-shadow: rgba(218,181,106,.45); --btn-fg: #2a1a0c;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font-body); font-weight: 400; font-size: 16px; line-height: 1.8; padding-bottom: 84px; }
+.in { max-width: 1180px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+a { color: inherit; }
+img { max-width: 100%; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+
+.eyebrow { font-family: var(--font-latin); font-size: 14px; font-weight: 500; letter-spacing: .32em; text-transform: uppercase; color: var(--gold); margin: 0; }
+
+/* marble surfaces */
+.marble { background-color: var(--bg); background-image: linear-gradient(90deg, rgba(255,250,240,.62), rgba(255,250,240,0) 58%), url("data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201600%20900%22%20preserveAspectRatio=%22xMidYMid%20slice%22%3E%0A%3Cdefs%3E%0A%3CradialGradient%20id=%22base%22%20cx=%2262%25%22%20cy=%2240%25%22%20r=%2290%25%22%3E%3Cstop%20offset=%220%22%20stop-color=%22%23fffaf0%22/%3E%3Cstop%20offset=%22.6%22%20stop-color=%22%23f6eedd%22/%3E%3Cstop%20offset=%221%22%20stop-color=%22%23eadfc8%22/%3E%3C/radialGradient%3E%0A%3ClinearGradient%20id=%22g%22%20gradientUnits=%22userSpaceOnUse%22%20x1=%220%22%20y1=%22900%22%20x2=%221600%22%20y2=%220%22%3E%3Cstop%20offset=%220%22%20stop-color=%22%23b98f3e%22%20stop-opacity=%220%22/%3E%3Cstop%20offset=%22.22%22%20stop-color=%22%23c39a47%22%20stop-opacity=%22.95%22/%3E%3Cstop%20offset=%22.5%22%20stop-color=%22%23d4ae62%22%20stop-opacity=%22.9%22/%3E%3Cstop%20offset=%22.78%22%20stop-color=%22%23bf9440%22%20stop-opacity=%22.95%22/%3E%3Cstop%20offset=%221%22%20stop-color=%22%23b98f3e%22%20stop-opacity=%220%22/%3E%3C/linearGradient%3E%0A%3ClinearGradient%20id=%22gr%22%20gradientUnits=%22userSpaceOnUse%22%20x1=%220%22%20y1=%22900%22%20x2=%221600%22%20y2=%220%22%3E%3Cstop%20offset=%220%22%20stop-color=%22%23a08d68%22%20stop-opacity=%220%22/%3E%3Cstop%20offset=%22.3%22%20stop-color=%22%23a08d68%22%20stop-opacity=%22.55%22/%3E%3Cstop%20offset=%22.7%22%20stop-color=%22%23a08d68%22%20stop-opacity=%22.45%22/%3E%3Cstop%20offset=%221%22%20stop-color=%22%23a08d68%22%20stop-opacity=%220%22/%3E%3C/linearGradient%3E%0A%3Cfilter%20id=%22b6%22%20x=%22-20%25%22%20y=%22-20%25%22%20width=%22140%25%22%20height=%22140%25%22%3E%3CfeGaussianBlur%20stdDeviation=%224%22/%3E%3C/filter%3E%0A%3Cfilter%20id=%22b60%22%20x=%22-50%25%22%20y=%22-50%25%22%20width=%22200%25%22%20height=%22200%25%22%3E%3CfeGaussianBlur%20stdDeviation=%2250%22/%3E%3C/filter%3E%0A%3Cfilter%20id=%22b14%22%20x=%22-20%25%22%20y=%22-20%25%22%20width=%22140%25%22%20height=%22140%25%22%3E%3CfeGaussianBlur%20stdDeviation=%2212%22/%3E%3C/filter%3E%0A%3C/defs%3E%0A%3Crect%20width=%221600%22%20height=%22900%22%20fill=%22url(%23base)%22/%3E%0A%3Cg%20filter=%22url(%23b60)%22%3E%0A%3Cellipse%20cx=%22430%22%20cy=%22620%22%20rx=%22520%22%20ry=%22110%22%20transform=%22rotate(-24%20430%20620)%22%20fill=%22%23d9c9a6%22%20opacity=%22.38%22/%3E%0A%3Cellipse%20cx=%221180%22%20cy=%22300%22%20rx=%22480%22%20ry=%22100%22%20transform=%22rotate(-18%201180%20300)%22%20fill=%22%23e0d2b4%22%20opacity=%22.34%22/%3E%0A%3Cellipse%20cx=%22900%22%20cy=%22780%22%20rx=%22400%22%20ry=%2280%22%20transform=%22rotate(-30%20900%20780)%22%20fill=%22%23d3c19c%22%20opacity=%22.32%22/%3E%0A%3C/g%3E%0A%3Cg%20fill=%22none%22%20stroke-linecap=%22round%22%3E%0A%3Cpath%20d=%22M-60%20790%20C%20240%20650,%20430%20720,%20650%20520%20S%20990%20330,%201190%20385%20S%201510%20185,%201690%2050%22%20stroke=%22%238f7e5e%22%20stroke-width=%2220%22%20opacity=%22.10%22%20filter=%22url(%23b14)%22/%3E%0A%3Cpath%20d=%22M210%20-30%20C%20310%20150,%20250%20300,%20430%20385%20S%20570%20565,%20525%20705%20S%20600%20880,%20705%20945%22%20stroke=%22%238f7e5e%22%20stroke-width=%2216%22%20opacity=%22.08%22%20filter=%22url(%23b14)%22/%3E%0A%3Cpath%20d=%22M1110%20-30%20C%201190%20120,%201370%20165,%201405%20300%20S%201330%20525,%201485%20645%20S%201565%20825,%201650%20910%22%20stroke=%22%238f7e5e%22%20stroke-width=%2216%22%20opacity=%22.08%22%20filter=%22url(%23b14)%22/%3E%0A%3Cpath%20d=%22M-60%20790%20C%20240%20650,%20430%20720,%20650%20520%20S%20990%20330,%201190%20385%20S%201510%20185,%201690%2050%22%20stroke=%22url(%23gr)%22%20stroke-width=%220.9%22/%3E%0A%3Cpath%20d=%22M210%20-30%20C%20310%20150,%20250%20300,%20430%20385%20S%20570%20565,%20525%20705%20S%20600%20880,%20705%20945%22%20stroke=%22url(%23gr)%22%20stroke-width=%220.8%22%20transform=%22translate(14%206)%22/%3E%0A%3Cpath%20d=%22M1110%20-30%20C%201190%20120,%201370%20165,%201405%20300%20S%201330%20525,%201485%20645%20S%201565%20825,%201650%20910%22%20stroke=%22url(%23gr)%22%20stroke-width=%220.8%22%20transform=%22translate(-12%208)%22/%3E%0A%3Cpath%20d=%22M-60%20790%20C%20240%20650,%20430%20720,%20650%20520%20S%20990%20330,%201190%20385%20S%201510%20185,%201690%2050%22%20stroke=%22url(%23g)%22%20stroke-width=%227%22%20fill=%22none%22%20opacity=%220.35%22%20filter=%22url(%23b6)%22/%3E%3Cpath%20d=%22M-60%20790%20C%20240%20650,%20430%20720,%20650%20520%20S%20990%20330,%201190%20385%20S%201510%20185,%201690%2050%22%20stroke=%22url(%23g)%22%20stroke-width=%221.8%22%20fill=%22none%22%20opacity=%221%22%20stroke-linecap=%22round%22/%3E%0A%3Cpath%20d=%22M650%20520%20C%20720%20610,%20800%20640,%20905%20770%20S%201010%20880,%201120%20930%22%20stroke=%22url(%23g)%22%20stroke-width=%224%22%20fill=%22none%22%20opacity=%220.315%22%20filter=%22url(%23b6)%22/%3E%3Cpath%20d=%22M650%20520%20C%20720%20610,%20800%20640,%20905%20770%20S%201010%20880,%201120%20930%22%20stroke=%22url(%23g)%22%20stroke-width=%221.0%22%20fill=%22none%22%20opacity=%220.9%22%20stroke-linecap=%22round%22/%3E%0A%3Cpath%20d=%22M990%20360%20C%201040%20300,%201030%20220,%201100%20140%20S%201130%2040,%201180%20-20%22%20stroke=%22url(%23g)%22%20stroke-width=%224%22%20fill=%22none%22%20opacity=%220.27999999999999997%22%20filter=%22url(%23b6)%22/%3E%3Cpath%20d=%22M990%20360%20C%201040%20300,%201030%20220,%201100%20140%20S%201130%2040,%201180%20-20%22%20stroke=%22url(%23g)%22%20stroke-width=%220.9%22%20fill=%22none%22%20opacity=%220.8%22%20stroke-linecap=%22round%22/%3E%0A%3Cpath%20d=%22M210%20-30%20C%20310%20150,%20250%20300,%20430%20385%20S%20570%20565,%20525%20705%20S%20600%20880,%20705%20945%22%20stroke=%22url(%23g)%22%20stroke-width=%226%22%20fill=%22none%22%20opacity=%220.33249999999999996%22%20filter=%22url(%23b6)%22/%3E%3Cpath%20d=%22M210%20-30%20C%20310%20150,%20250%20300,%20430%20385%20S%20570%20565,%20525%20705%20S%20600%20880,%20705%20945%22%20stroke=%22url(%23g)%22%20stroke-width=%221.5%22%20fill=%22none%22%20opacity=%220.95%22%20stroke-linecap=%22round%22/%3E%0A%3Cpath%20d=%22M430%20385%20C%20520%20360,%20600%20280,%20700%20250%20S%20820%20190,%20900%2090%22%20stroke=%22url(%23g)%22%20stroke-width=%224%22%20fill=%22none%22%20opacity=%220.27999999999999997%22%20filter=%22url(%23b6)%22/%3E%3Cpath%20d=%22M430%20385%20C%20520%20360,%20600%20280,%20700%20250%20S%20820%20190,%20900%2090%22%20stroke=%22url(%23g)%22%20stroke-width=%220.9%22%20fill=%22none%22%20opacity=%220.8%22%20stroke-linecap=%22round%22/%3E%0A%3Cpath%20d=%22M1110%20-30%20C%201190%20120,%201370%20165,%201405%20300%20S%201330%20525,%201485%20645%20S%201565%20825,%201650%20910%22%20stroke=%22url(%23g)%22%20stroke-width=%226%22%20fill=%22none%22%20opacity=%220.33249999999999996%22%20filter=%22url(%23b6)%22/%3E%3Cpath%20d=%22M1110%20-30%20C%201190%20120,%201370%20165,%201405%20300%20S%201330%20525,%201485%20645%20S%201565%20825,%201650%20910%22%20stroke=%22url(%23g)%22%20stroke-width=%221.6%22%20fill=%22none%22%20opacity=%220.95%22%20stroke-linecap=%22round%22/%3E%0A%3Cpath%20d=%22M1485%20645%20C%201400%20700,%201380%20790,%201300%20880%22%20stroke=%22url(%23g)%22%20stroke-width=%224%22%20fill=%22none%22%20opacity=%220.26249999999999996%22%20filter=%22url(%23b6)%22/%3E%3Cpath%20d=%22M1485%20645%20C%201400%20700,%201380%20790,%201300%20880%22%20stroke=%22url(%23g)%22%20stroke-width=%220.9%22%20fill=%22none%22%20opacity=%220.75%22%20stroke-linecap=%22round%22/%3E%0A%3C/g%3E%0A%3C/svg%3E"); background-size: cover; background-position: center; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .marble { background-image: radial-gradient(ellipse at 70% 20%, rgba(210,174,110,.10), rgba(0,0,0,0) 60%); } }
+:root[data-theme="dark"] .marble { background-image: radial-gradient(ellipse at 70% 20%, rgba(210,174,110,.10), rgba(0,0,0,0) 60%); }
+
+/* header */
+.top .in { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-block: 28px; }
+.mark { font-family: var(--font-latin); font-weight: 500; font-size: 34px; letter-spacing: .08em; line-height: 1; text-decoration: none; }
+.mark small { display: block; font-family: var(--font-body); font-size: 11px; letter-spacing: .42em; color: var(--gold); margin-top: 8px; font-weight: 500; text-transform: uppercase; }
+.nav { display: flex; align-items: center; gap: 36px; }
+.nav a { font-size: 14px; letter-spacing: .08em; text-decoration: none; color: var(--muted); }
+.nav a:hover { color: var(--fg); }
+.nav a.btn { color: var(--btn-fg); }
+.nav a.btn:hover { color: var(--btn-fg); }
+
+/* buttons */
+.btn { position: relative; display: inline-flex; align-items: center; gap: 14px; background: linear-gradient(180deg, var(--btn-top), var(--btn-bot)); color: var(--btn-fg); border: 1px solid var(--btn-edge); padding: 19px 42px; font-family: var(--font-body); font-weight: 500; font-size: 15px; line-height: 1; letter-spacing: .12em; text-decoration: none; box-shadow: 0 10px 26px -12px var(--btn-shadow); transform-origin: 50% 60%; animation: wiggle 5s ease-in-out infinite; }
+.btn::before { content: ""; position: absolute; inset: 4px; border: 1px solid var(--btn-inner); pointer-events: none; }
+.btn::after { content: ""; position: absolute; inset: -1px; box-shadow: 0 0 0 0 rgba(196,160,90,.55); animation: ring 5s ease-out infinite; pointer-events: none; }
+.btn:hover { animation-play-state: paused; filter: brightness(1.12); }
+.btn svg { width: 19px; height: 19px; flex: none; }
+.btn.sm { padding: 12px 24px; font-size: 13px; letter-spacing: .1em; animation: none; box-shadow: none; }
+.btn.sm::before { inset: 3px; }
+.btn.sm::after { display: none; }
+.btn.line { background: #06c755; border: 1px solid #06c755; color: #fff; border-radius: 6px; padding: 11px 28px 11px 14px; font-size: 19px; font-weight: 600; letter-spacing: 0; gap: 12px; box-shadow: 0 10px 22px -12px rgba(6,199,85,.8); }
+.btn.line::before { display: none; }
+.btn.line::after { border-radius: 6px; animation: ring-g 5s ease-out infinite; }
+.btn.line svg { width: 30px; height: 30px; }
+.btn.line:hover { filter: brightness(1.06); }
+.btn.sm.line { padding: 7px 18px 7px 9px; font-size: 14px; gap: 9px; border-radius: 5px; }
+.btn.sm.line svg { width: 22px; height: 22px; }
+@keyframes ring-g { 0%, 66% { box-shadow: 0 0 0 0 rgba(6,199,85,.5); } 92%, 100% { box-shadow: 0 0 0 16px rgba(6,199,85,0); } }
+.btn-line2 { font-size: 14px; letter-spacing: .08em; color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--gold-soft); padding-bottom: 4px; }
+.btn-line2:hover { border-color: var(--fg); }
+@keyframes wiggle { 0%, 66%, 100% { transform: rotate(0); } 70% { transform: rotate(-1.6deg); } 74% { transform: rotate(1.6deg); } 78% { transform: rotate(-1.2deg); } 82% { transform: rotate(.8deg); } 86% { transform: rotate(0); } }
+@keyframes ring { 0%, 66% { box-shadow: 0 0 0 0 rgba(196,160,90,.55); } 92%, 100% { box-shadow: 0 0 0 18px rgba(196,160,90,0); } }
+
+/* hero */
+.hero main .in { padding-block: 56px 120px; }
+.hero-text { max-width: 640px; }
+h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(30px, 3.8vw, 46px); line-height: 1.55; letter-spacing: .01em; margin: 28px 0 28px; text-wrap: balance; }
+.lead { color: var(--muted); max-width: 31em; margin: 0 0 44px; font-weight: 300; }
+.ctas { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 36px; }
+.panorama { position: relative; margin: 96px 0 0; }
+.panorama::before { content: ""; position: absolute; inset: 16px -16px -16px 16px; border: 1px solid var(--gold-soft); pointer-events: none; }
+.panorama img { position: relative; display: block; width: 100%; height: auto; aspect-ratio: 1600 / 396; object-fit: cover; }
+.panorama figcaption { position: relative; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 36px; font-size: 14px; color: var(--muted); letter-spacing: .04em; }
+.panorama figcaption a { color: var(--gold); text-underline-offset: 5px; }
+
+/* collection */
+section.block { padding-block: 120px; }
+h2 { font-family: var(--font-display); font-weight: 400; font-size: clamp(26px, 3vw, 36px); line-height: 1.6; margin: 20px 0 20px; text-wrap: balance; }
+.sub { color: var(--muted); max-width: 36em; margin: 0 0 56px; font-weight: 300; }
+.tools { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px 48px; padding: 20px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+.tabs, .swatches { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; margin: 0; padding: 0; list-style: none; }
+.tabs button { font: inherit; font-size: 15px; letter-spacing: .06em; color: var(--muted); background: none; border: 0; border-bottom: 1px solid transparent; padding: 4px 0; cursor: pointer; }
+.tabs button:hover { color: var(--fg); }
+.tabs button[aria-pressed="true"] { color: var(--fg); border-bottom-color: var(--gold); }
+.swatches { gap: 10px 14px; }
+.swatches .lbl { font-size: 13px; letter-spacing: .1em; color: var(--muted); margin-right: 6px; }
+.sw { width: 24px; height: 24px; border-radius: 50%; border: 1px solid var(--line); background: var(--c); padding: 0; cursor: pointer; }
+.sw.all { background: conic-gradient(#1b1b1b, #9d1f2b, #e7aeb8, #efe8d8, #8d8d8d, #1d3a73, #1f6a62, #6e3f86, #a07a3e, #1b1b1b); }
+.sw[aria-pressed="true"] { outline: 1px solid var(--gold); outline-offset: 3px; }
+.count { font-size: 14px; color: var(--muted); letter-spacing: .04em; margin: 0 0 40px; }
+
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 72px 56px; align-items: start; margin: 0; padding: 0; list-style: none; }
+.card { min-width: 0; display: flex; flex-direction: column; gap: 20px; }
+.card[hidden] { display: none; }
+.frame { display: block; width: 100%; padding: 14px; background: var(--surface); border: 1px solid var(--line); cursor: zoom-in; transition: border-color .3s; }
+.frame:hover { border-color: var(--gold-soft); }
+.frame img { display: block; width: 100%; height: auto; }
+.cap { display: flex; align-items: baseline; gap: 16px; }
+.cap .no { font-family: var(--font-latin); font-style: italic; font-size: 22px; color: var(--gold); width: 34px; flex: none; font-variant-numeric: lining-nums; }
+.cap h3 { font-family: var(--font-display); font-weight: 400; font-size: 18px; line-height: 1.6; margin: 0; }
+.ask { align-self: flex-start; margin-left: 50px; font-size: 13px; letter-spacing: .1em; color: var(--gold); text-underline-offset: 5px; }
+.ask:hover { color: var(--fg); }
+
+.pts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 48px; margin-top: 120px; padding-top: 56px; border-top: 1px solid var(--line); }
+.pt h3 { font-family: var(--font-display); font-weight: 400; font-size: 20px; margin: 0 0 12px; }
+.pt p { margin: 0; color: var(--muted); font-weight: 300; }
+
+/* contact */
+.contact .in { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 80px; padding-block: 120px; }
+.contact .lead { margin-bottom: 36px; }
+.rows { margin: 0; border-top: 1px solid var(--line); min-width: 0; align-self: start; }
+.row { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 20px; padding: 26px 0; border-bottom: 1px solid var(--line); align-items: baseline; }
+.row dt { font-size: 12px; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); }
+.row dd { margin: 0; overflow-wrap: anywhere; }
+.num { font-family: var(--font-latin); font-size: 28px; font-weight: 500; letter-spacing: .05em; font-variant-numeric: lining-nums tabular-nums; }
+.mini-row { display: inline-flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-left: 14px; vertical-align: middle; }
+.small-btn { font: inherit; font-size: 13px; letter-spacing: .06em; color: var(--gold); background: transparent; border: 1px solid var(--gold-soft); padding: 5px 16px; cursor: pointer; text-decoration: none; line-height: 1.5; }
+.small-btn:hover { background: var(--gold); color: var(--bg); border-color: var(--gold); }
+.row a.map { color: var(--gold); text-underline-offset: 5px; }
+
+footer .in { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-block: 32px; font-size: 13px; letter-spacing: .06em; color: var(--muted); border-top: 1px solid var(--line); }
+
+.dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: none; gap: 10px; padding: 10px max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); background: var(--bg); border-top: 1px solid var(--line); }
+.dock .btn { flex: 1; justify-content: center; padding: 15px 16px; animation: none; }
+.dock .btn.line { padding: 10px 16px; }
+.dock .btn::after { display: none; }
+.dock .call { display: inline-flex; align-items: center; padding: 0 22px; border: 1px solid var(--gold-soft); color: var(--fg); text-decoration: none; font-size: 15px; letter-spacing: .08em; }
+
+.lb { position: fixed; inset: 0; z-index: 50; background: rgba(20,13,9,.94); display: none; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: calc(16px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(16px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.lb.open { display: flex; }
+.lb img { max-width: 100%; max-height: calc(100% - 96px); object-fit: contain; }
+.lbtools { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; justify-content: center; color: #efeadf; }
+.lbtools span { font-size: 14px; letter-spacing: .08em; min-width: 6em; text-align: center; }
+.lb button, .lb a.go { font: inherit; font-size: 14px; letter-spacing: .06em; color: #efeadf; background: transparent; border: 1px solid rgba(239,234,223,.45); padding: 8px 18px; cursor: pointer; text-decoration: none; }
+.lb button:hover { background: rgba(239,234,223,.12); }
+.lb a.go { background: #dab56a; border-color: #dab56a; color: #20150d; font-weight: 500; }
+
+@media (max-width: 960px) {
+  section.block { padding-block: 88px; }
+  .hero main .in { padding-block: 32px 88px; }
+  .panorama { margin-top: 72px; }
+  .grid { gap: 56px 32px; }
+  .contact .in { grid-template-columns: minmax(0, 1fr); gap: 56px; padding-block: 88px; }
+  .pts { grid-template-columns: minmax(0, 1fr); gap: 36px; margin-top: 88px; }
+}
+@media (max-width: 720px) {
+  .nav a:not(.btn) { display: none; }
+  .nav .btn { display: none; }
+  .grid { grid-template-columns: minmax(0, 1fr); gap: 56px; }
+  .tools { gap: 20px; }
+  .dock { display: flex; }
+  .panorama::before { inset: 10px -10px -10px 10px; }
+  .panorama img { aspect-ratio: 16 / 7; }
+  .ask { margin-left: 0; }
+  .row { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .mini-row { margin-left: 0; display: flex; margin-top: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn, .btn::after { animation: none; } .frame { transition: none; } }
+</style>
+</head>
+<body>
+<section class="hero marble">
+<header class="top">
+  <div class="in">
+    <a class="mark" href="#top">N.i.<small>เฟอร์นิเจอร์</small></a>
+    <nav class="nav" aria-label="เมนูหลัก">
+      <a href="#collection">คอลเลกชัน</a>
+      <a href="#contact">ติดต่อ</a>
+      <a class="btn sm line" href="https://line.me/R/ti/p/@873pqbug" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#fff"/><path fill="#06c755" d="M20 8C13 8 7.5 12.5 7.5 18c0 4.900 4.300 9 10.100 9.800.4.100.9.300 1 .6.1.3.1.8 0 1.100l-.2 1c0 .3-.2 1.100 1 .6 1.200-.5 6.400-3.800 8.700-6.500 1.600-1.800 2.400-3.700 2.400-5.700C30.500 12.500 27 8 20 8z"/><text x="20" y="20.500" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="7.200" fill="#fff">LINE</text></svg>สนใจสั่งซื้อ</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <div class="in">
+    <div class="hero-text">
+      <p class="eyebrow">Sofa &amp; Bed Collection</p>
+      <h1>ชุดโซฟาและชุดเตียงนอน<br>ดีไซน์คลาสสิก เรียบหรู</h1>
+      <p class="lead">ผลิตและจำหน่ายจากโรงงานที่กาฬสินธุ์ เลือกแบบที่ชอบจากคอลเลกชัน แล้วสอบถามรายละเอียดและราคาได้โดยตรง</p>
+      <div class="ctas">
+        <a class="btn line" href="https://line.me/R/ti/p/@873pqbug" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#fff"/><path fill="#06c755" d="M20 8C13 8 7.5 12.5 7.5 18c0 4.900 4.300 9 10.100 9.800.4.100.9.300 1 .6.1.3.1.8 0 1.100l-.2 1c0 .3-.2 1.100 1 .6 1.200-.5 6.400-3.800 8.700-6.500 1.600-1.800 2.400-3.700 2.400-5.700C30.500 12.500 27 8 20 8z"/><text x="20" y="20.500" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="7.200" fill="#fff">LINE</text></svg>สนใจสั่งซื้อ</a>
+        <a class="btn-line2" href="#collection">ดูคอลเลกชัน 26 แบบ</a>
+      </div>
+    </div>
+    <figure class="panorama">
+      <img src="img/hero.jpg" width="1600" height="396" alt="โซฟากำมะหยี่สีดำ ขอบทอง มือจับลายสิงโต พร้อมหมอนอิง 4 ใบ">
+      <figcaption><span>ชุดโซฟาหรู สีดำกำมะหยี่ ขอบทอง</span><a href="#collection">ดูรายละเอียดในคอลเลกชัน</a></figcaption>
+    </figure>
+  </div>
+</main>
+</section>
+
+<section class="block" id="collection">
+  <div class="in">
+    <p class="eyebrow">Collection</p>
+    <h2>คอลเลกชันชุดโซฟาและชุดเตียง</h2>
+    <p class="sub">กดที่ภาพเพื่อดูขนาดเต็ม บางรุ่นเลือกสีหุ้มได้ สอบถามรายละเอียดและราคาได้ทาง LINE @ni1212</p>
+
+    <div class="tools">
+      <ul class="tabs" id="f-type" aria-label="กรองตามประเภท"></ul>
+      <ul class="swatches" id="f-tone" aria-label="กรองตามสี"></ul>
+    </div>
+    <p class="count" id="count" aria-live="polite"></p>
+    <ul class="grid" id="grid"></ul>
+
+    <div class="pts">
+      <div class="pt"><h3>ผลิตเองที่โรงงาน</h3><p>โรงงานตั้งอยู่ที่ ต.นาโก อ.กุฉินารายณ์ จ.กาฬสินธุ์ ติดต่อกับผู้ผลิตโดยตรง</p></div>
+      <div class="pt"><h3>สอบถามผ่าน LINE</h3><p>ส่งรูปแบบที่ชอบหรือขนาดที่ต้องการมาในแชต เพื่อสอบถามรายละเอียดและราคา</p></div>
+      <div class="pt"><h3>แวะดูได้ที่โรงงาน</h3><p>มีพิกัดแผนที่ให้เปิดนำทาง สะดวกเมื่อต้องการเข้าไปดูสินค้า</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact marble" id="contact">
+  <div class="in">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>สนใจสั่งซื้อหรือสอบถาม<br>ทักแชตได้เลยค่ะ</h2>
+      <p class="lead">รายละเอียดสินค้าและราคา สอบถามได้ทาง LINE @ni1212</p>
+      <a class="btn line" href="https://line.me/R/ti/p/@873pqbug" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#fff"/><path fill="#06c755" d="M20 8C13 8 7.5 12.5 7.5 18c0 4.900 4.300 9 10.100 9.800.4.100.9.300 1 .6.1.3.1.8 0 1.100l-.2 1c0 .3-.2 1.100 1 .6 1.200-.5 6.400-3.800 8.700-6.500 1.600-1.800 2.400-3.700 2.400-5.700C30.500 12.500 27 8 20 8z"/><text x="20" y="20.500" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="7.200" fill="#fff">LINE</text></svg>สนใจสั่งซื้อ</a>
+    </div>
+    <dl class="rows">
+      <div class="row"><dt>LINE</dt><dd><span class="num">@ni1212</span><span class="mini-row"><button class="small-btn" type="button" data-copy="@ni1212">คัดลอก</button></span></dd></div>
+      <div class="row"><dt>โทร</dt><dd><span class="num">099-483-4469</span><span class="mini-row"><a class="small-btn" href="tel:0994834469">โทรเลย</a><button class="small-btn" type="button" data-copy="099-483-4469">คัดลอก</button></span></dd></div>
+      <div class="row"><dt>โรงงาน</dt><dd>228 หมู่ 8 ต.นาโก อ.กุฉินารายณ์<br>จ.กาฬสินธุ์ 46110<br><a class="map" href="https://maps.app.goo.gl/f7LdvFy6eyXB4CrA9" target="_blank" rel="noopener">เปิดใน Google Maps</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<footer><div class="in"><span>© N.i.เฟอร์นิเจอร์</span><span>กาฬสินธุ์</span></div></footer>
+
+<div class="dock">
+  <a class="btn line" href="https://line.me/R/ti/p/@873pqbug" target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#fff"/><path fill="#06c755" d="M20 8C13 8 7.5 12.5 7.5 18c0 4.900 4.300 9 10.100 9.800.4.100.9.300 1 .6.1.3.1.8 0 1.100l-.2 1c0 .3-.2 1.100 1 .6 1.200-.5 6.400-3.800 8.700-6.500 1.600-1.800 2.400-3.700 2.400-5.700C30.500 12.500 27 8 20 8z"/><text x="20" y="20.500" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="7.200" fill="#fff">LINE</text></svg>สนใจสั่งซื้อ</a>
+  <a class="call" href="tel:0994834469">โทร</a>
+</div>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="ดูภาพขยาย">
+  <img id="lb-img" alt="">
+  <div class="lbtools">
+    <button type="button" id="lb-prev">ก่อนหน้า</button>
+    <span id="lb-pos"></span>
+    <button type="button" id="lb-next">ถัดไป</button>
+    <a class="go" href="https://line.me/R/ti/p/@873pqbug" target="_blank" rel="noopener">สอบถามแบบนี้ทาง LINE</a>
+    <button type="button" id="lb-close">ปิด</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var S = "ชุดโซฟา", B = "ชุดเตียง";
+  var ITEMS = [
+    { f: "p01", y: S, t: "แดง", w: 1400, h: 788, n: "ชุดโซฟาหรู ดีไซน์โมเดิร์น สีแดง", a: "ชุดโซฟากำมะหยี่สีแดง โซฟา 3 ที่นั่งและเก้าอี้เดี่ยว 2 ตัว พร้อมโต๊ะกลางกระจก" },
+    { f: "p16", y: S, t: "ดำ", w: 1400, h: 788, n: "ชุดโซฟาหรู สีดำ ลายสิงโตทอง", a: "โซฟายาวสีดำกำมะหยี่ ขอบทอง มือจับลายสิงโต พร้อมหมอนอิง 4 ใบ" },
+    { f: "p17", y: S, t: "เทา", w: 1024, h: 1536, n: "ชุดโซฟาหรู สีเทาเข้ม", a: "ชุดโซฟากำมะหยี่สีเทาเข้ม ขอบทอง โซฟา 3 ที่นั่ง เก้าอี้เดี่ยว 2 ตัว และสตูลกลาง" },
+    { f: "p18", y: S, t: "น้ำเงิน", w: 1122, h: 1402, n: "ชุดโซฟาหรู สีน้ำเงินกำมะหยี่", a: "ชุดโซฟากำมะหยี่สีน้ำเงิน กระดุมคริสตัล ขอบทอง พร้อมโต๊ะกลางกระจก" },
+    { f: "p21", y: S, t: "น้ำเงิน", w: 1400, h: 1046, n: "ชุดโซฟาหรู สีกรมท่าแถบทอง", a: "ชุดโซฟา 3 ที่นั่ง 1 ตัว และ 1 ที่นั่ง 2 ตัว สีกรมท่า แถบทอง หมอนอิงสีเหลือง พร้อมโต๊ะกลางกระจก" },
+    { f: "p22", y: S, t: "แดง", w: 1400, h: 962, n: "ชุดโซฟาหรู สีแดงเข้ม", a: "ชุดโซฟากำมะหยี่สีแดงเข้ม ตอกกระดุมคริสตัล 3 ที่นั่ง 1 ตัว และ 1 ที่นั่ง 2 ตัว" },
+    { f: "p23", y: S, t: "แดง", w: 1400, h: 957, n: "ชุดโซฟาหรู สีแดงขอบทอง", a: "ชุดโซฟาสีแดงตัดขอบสีทอง กระดุมคริสตัล 3 ที่นั่ง 1 ตัว และ 1 ที่นั่ง 2 ตัว พร้อมโต๊ะกลางกระจก" },
+    { f: "p24", y: S, t: "ดำ", w: 1400, h: 1050, n: "ชุดโซฟา สีดำ ขอบทอง", a: "ชุดโซฟากำมะหยี่สีดำ ขอบทอง โซฟา 3 ที่นั่ง 1 ตัว และ 1 ที่นั่ง 2 ตัว พร้อมสตูลโต๊ะกลางกระจกและหมอนอิง" },
+    { f: "p25", y: S, t: "เทา", w: 1400, h: 1050, n: "ชุดโซฟา สีเทากำมะหยี่", a: "ชุดโซฟากำมะหยี่สีเทา โซฟา 3 ที่นั่ง 1 ตัว และ 1 ที่นั่ง 2 ตัว พร้อมสตูลโต๊ะกลางกระจก" },
+    { f: "p26", y: S, t: "ขาว/ครีม", w: 1400, h: 1050, n: "ชุดโซฟา สีครีมขอบทอง", a: "ชุดโซฟาหนังสีครีม ขอบสแตนเลสสีทอง โซฟา 3 ที่นั่ง 1 ตัว และ 1 ที่นั่ง 2 ตัว พร้อมสตูลโต๊ะกลางกระจก" },
+    { f: "p14", y: S, t: "เทา", w: 1400, h: 1045, n: "ชุดที่นั่งหรู 3 ที่นั่ง + 2 ตัว", a: "ชุดใหญ่ 3 ที่นั่ง 1 ตัว และ 1 ที่นั่ง 2 ตัว พร้อมโต๊ะกลางกระจกและหมอนอิง 5 ใบ สีเทา" },
+    { f: "p19", y: B, t: "ขาว/ครีม", w: 1400, h: 1050, n: "เตียงนอนครอบครัว สีครีมขอบทอง", a: "เตียงนอนครอบครัว หุ้มหนังสีครีม ตัดขอบทอง มีขนาด 5+3.5 ฟุต และ 6+3.5 ฟุต" },
+    { f: "p20", y: B, t: "ดำ", w: 1400, h: 1050, n: "เตียงนอนครอบครัว สีดำ", a: "เตียงนอนครอบครัว หุ้มหนังสีดำ หัวเตียงทรงปีก กระดุมคริสตัล มีหลายขนาด" },
+    { f: "p02", y: B, t: "ขาว/ครีม", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีครีม", a: "ชุดเตียง 2 in 1 หัวเตียงบุกระดุมคริสตัล สีครีม" },
+    { f: "p03", y: B, t: "เขียว/ฟ้า", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีฟ้าอมเขียว", a: "ชุดเตียง 2 in 1 หัวเตียงทรงปีกบุกระดุมคริสตัล สีฟ้าอมเขียว" },
+    { f: "p04", y: B, t: "ขาว/ครีม", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีขาว", a: "ชุดเตียง 2 in 1 หัวเตียงบุกระดุมคริสตัล สีขาว" },
+    { f: "p05", y: B, t: "ม่วง", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีม่วง", a: "ชุดเตียง 2 in 1 หัวเตียงทรงปีกบุกระดุมคริสตัล สีม่วง" },
+    { f: "p06", y: B, t: "เขียว/ฟ้า", w: 1400, h: 1050, n: "ชุดเตียงนอนหรู สีเขียวกำมะหยี่", a: "ชุดเตียง 2 in 1 บุกำมะหยี่สีเขียว กระดุมคริสตัล" },
+    { f: "p07", y: B, t: "น้ำตาล/ทอง", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีน้ำตาลทอง", a: "ชุดเตียง 2 in 1 บุริ้วแนวตั้ง สีน้ำตาลทอง" },
+    { f: "p08", y: B, t: "ชมพู", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีโอลด์โรส", a: "ชุดเตียง 2 in 1 หัวเตียงบุกระดุม สีชมพูโอลด์โรส" },
+    { f: "p09", y: B, t: "เทา", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีเทากำมะหยี่", a: "ชุดเตียง 2 in 1 บุกำมะหยี่สีเทา กระดุมคริสตัล" },
+    { f: "p10", y: B, t: "ชมพู", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีชมพูหวาน", a: "ชุดเตียง 2 in 1 หัวเตียงสูง สีชมพูอ่อน" },
+    { f: "p11", y: B, t: "แดง", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีแดงกำมะหยี่", a: "ชุดเตียง 2 in 1 บุกำมะหยี่สีแดง กระดุมคริสตัล" },
+    { f: "p12", y: B, t: "เทา", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีเทาหนังเรียบ", a: "ชุดเตียง 2 in 1 หัวเตียงบุกระดุมคริสตัล สีเทา" },
+    { f: "p13", y: B, t: "เทา", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีเทาอ่อน", a: "ชุดเตียง 2 in 1 หัวเตียงบุริ้วแนวตั้ง สีเทาอ่อน" },
+    { f: "p15", y: B, t: "ขาว/ครีม", w: 1400, h: 1045, n: "ชุดเตียงนอนหรู สีขาวครีม", a: "ชุดเตียง 2 in 1 หัวเตียงบุช่องสี่เหลี่ยม สีขาวครีม" }
+  ];
+  var TYPES = ["ทั้งหมด", "ชุดโซฟา", "ชุดเตียง"];
+  var TONES = [["ดำ", "#1b1b1b"], ["แดง", "#9d1f2b"], ["ชมพู", "#e7aeb8"], ["ขาว/ครีม", "#efe8d8"], ["เทา", "#8d8d8d"], ["น้ำเงิน", "#1d3a73"], ["เขียว/ฟ้า", "#1f6a62"], ["ม่วง", "#6e3f86"], ["น้ำตาล/ทอง", "#a07a3e"]];
+  var LINE = "https://line.me/R/ti/p/@873pqbug";
+  var grid = document.getElementById("grid"), count = document.getElementById("count");
+  var lb = document.getElementById("lb"), lbImg = document.getElementById("lb-img"), lbPos = document.getElementById("lb-pos");
+  var current = 0, visible = [], lastFocus = null, fType = "ทั้งหมด", fTone = "ทั้งหมด";
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+
+  ITEMS.forEach(function (it, i) {
+    var li = document.createElement("li");
+    li.className = "card"; li.dataset.tone = it.t; li.dataset.type = it.y; li.dataset.i = i;
+    li.innerHTML =
+      '<button type="button" class="frame" aria-label="ขยายภาพ ' + it.n + '"><img loading="lazy" src="img/' + it.f + '.jpg" width="' + it.w + '" height="' + it.h + '" alt="' + it.a + '"></button>' +
+      '<div class="cap"><span class="no">' + pad(i + 1) + '</span><h3>' + it.n + '</h3></div>' +
+      '<a class="ask" href="' + LINE + '" target="_blank" rel="noopener">สอบถามแบบนี้ทาง LINE</a>';
+    li.querySelector(".frame").addEventListener("click", function () { openLb(i); });
+    grid.appendChild(li);
+  });
+
+  var tabs = document.getElementById("f-type");
+  TYPES.forEach(function (t, k) {
+    var li = document.createElement("li"), b = document.createElement("button");
+    b.type = "button"; b.textContent = t; b.setAttribute("aria-pressed", String(k === 0));
+    b.addEventListener("click", function () {
+      tabs.querySelectorAll("button").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+      fType = t; applyFilter();
+    });
+    li.appendChild(b); tabs.appendChild(li);
+  });
+
+  var sws = document.getElementById("f-tone");
+  var lab = document.createElement("li"); lab.innerHTML = '<span class="lbl">สี</span>'; sws.appendChild(lab);
+  function swatch(name, color, on) {
+    var li = document.createElement("li"), b = document.createElement("button");
+    b.type = "button"; b.className = "sw" + (color ? "" : " all"); if (color) b.style.setProperty("--c", color);
+    b.title = name; b.setAttribute("aria-label", "สี" + name); b.setAttribute("aria-pressed", String(on));
+    b.addEventListener("click", function () {
+      sws.querySelectorAll(".sw").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+      fTone = name; applyFilter();
+    });
+    li.appendChild(b); sws.appendChild(li);
+  }
+  swatch("ทั้งหมด", null, true);
+  TONES.forEach(function (t) { swatch(t[0], t[1], false); });
+
+  function applyFilter() {
+    visible = [];
+    grid.querySelectorAll(".card").forEach(function (c) {
+      var ok = (fType === "ทั้งหมด" || c.dataset.type === fType) && (fTone === "ทั้งหมด" || c.dataset.tone === fTone);
+      c.hidden = !ok;
+      if (ok) visible.push(+c.dataset.i);
+    });
+    var parts = [];
+    if (fType !== "ทั้งหมด") parts.push(fType);
+    if (fTone !== "ทั้งหมด") parts.push("สี" + fTone);
+    count.textContent = (parts.length ? parts.join(" · ") + " " : "ทั้งหมด ") + visible.length + " แบบ" + (visible.length ? "" : " ยังไม่มีแบบที่ตรงกัน ลองเปลี่ยนตัวกรอง");
+  }
+  applyFilter();
+
+  function show(i) {
+    current = i;
+    lbImg.src = "img/" + ITEMS[i].f + ".jpg"; lbImg.alt = ITEMS[i].a;
+    var p = visible.indexOf(i);
+    lbPos.textContent = p >= 0 ? (p + 1) + " / " + visible.length : ITEMS[i].n;
+  }
+  function openLb(i) { lastFocus = document.activeElement; show(i); lb.classList.add("open"); document.getElementById("lb-close").focus(); }
+  function closeLb() { lb.classList.remove("open"); if (lastFocus) lastFocus.focus(); }
+  function step(d) {
+    var p = visible.indexOf(current);
+    if (p < 0) { show(visible[0]); return; }
+    show(visible[(p + d + visible.length) % visible.length]);
+  }
+  document.getElementById("lb-close").addEventListener("click", closeLb);
+  document.getElementById("lb-prev").addEventListener("click", function () { step(-1); });
+  document.getElementById("lb-next").addEventListener("click", function () { step(1); });
+  lb.addEventListener("click", function (e) { if (e.target === lb) closeLb(); });
+  document.addEventListener("keydown", function (e) {
+    if (!lb.classList.contains("open")) return;
+    if (e.key === "Escape") closeLb();
+    if (e.key === "ArrowLeft") step(-1);
+    if (e.key === "ArrowRight") step(1);
+  });
+
+  document.querySelectorAll("[data-copy]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var t = b.dataset.copy;
+      var done = function () { b.textContent = "คัดลอกแล้ว"; setTimeout(function () { b.textContent = "คัดลอก"; }, 1600); };
+      var fallback = function () {
+        var r = document.createRange(); r.selectNodeContents(b.closest(".row").querySelector(".num"));
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        b.textContent = "เลือกข้อความแล้ว";
+      };
+      try { navigator.clipboard.writeText(t).then(done, fallback); } catch (e) { fallback(); }
+    });
+  });
+})();
+</script>
+</body>
+</html>
